@@ -93,7 +93,10 @@ get_header('tailwind'); // 加载头部
                         </div>
                         <div class="titleblue" style="margin-top: 20px">Battery Storage</div>
                         <div style="margin-top: 20px">
-                            <P><a title="view details" target="_blank" href="<?php echo get_template_directory_uri() . '/pdf/anker_solix_x1_home_energy_storage_system_warranty_policy_canada.pdf'; ?>">Anker SOLIX X1
+                            <P><a title="view details" target="_blank" href="<?php echo get_template_directory_uri() . '/pdf/anker_solix_x1_home_energy_storage_system_warranty_policy_canada.pdf'; ?>">Anker SOLIX X1 Warranty Policy
+                                    <img class="dowimg" src="<?php echo get_template_directory_uri() . '/pdf/img/downloadpdf.png'; ?>" alt="">
+                                </a></P>
+                            <P><a title="view details" target="_blank" href="<?php echo get_template_directory_uri() . '/pdf/anker_solix_x1_datasheet_2503_canada.pdf'; ?>">Anker SOLIX X1 Datasheet
                                     <img class="dowimg" src="<?php echo get_template_directory_uri() . '/pdf/img/downloadpdf.png'; ?>" alt="">
                                 </a></P>
                             <P><a title="view details" target="_blank" href="<?php echo get_template_directory_uri() . '/pdf/13.5kwh_warranty_yimin_20241120.pdf'; ?>">APstorage Battery
