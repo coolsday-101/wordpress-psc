@@ -45,9 +45,9 @@ function animateValue(start, end, duration, element) {
 }
 
 function startAnimation() {
-  animateValue(0, 12000, 1500, elementNumBox01);
-  animateValue(0, 111, 1500, elementNumBox02);
-  animateValue(0, 11, 1500, elementNumBox03);
+  animateValue(0, 12500, 1500, elementNumBox01);
+  animateValue(0, 115.83, 1500, elementNumBox02);
+  animateValue(0, 12, 1500, elementNumBox03);
 }
 // 页面快加载完成执行
 document.addEventListener("DOMContentLoaded", function () {

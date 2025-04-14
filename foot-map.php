@@ -221,7 +221,7 @@
             <div class="foot-map-left">
                 <div class="foot-introduce-text">
                     Polaron holds the distinction as Canada’s most trusted Solar Company.
-                    Having helped over 12,000 households go solar, we’ve grown to become
+                    Having helped over 12,500 households go solar, we’ve grown to become
                     Canada’s largest residential solar installation company. Starting
                     from Ontario in 2013, we quickly spread across Canada in late 2017
                     and now operate locally in 5 provinces (ON, AB, NS, BC and PEI), all while cementing
