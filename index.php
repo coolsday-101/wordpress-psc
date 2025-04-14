@@ -65,10 +65,10 @@
                      Alberta
                  </div>
                  <div class="modeule-three-province-description">
-                     <span>1100</span> Projects</br>
-                     <span>11 MW</span> Solar Energy Production</br>
-                     <span>61 K</span> Equivalent Trees Planted</br>
-                     <span>5.9 K</span> Tons Greenhouse Gases Reduced Each Year</br>
+                     <span>2,100</span> Projects</br>
+                     <span>16.38 MW</span> Solar Energy Production</br>
+                     <span>1.3 M</span> Equivalent Trees Planted</br>
+                     <span>124 K</span> Tons Greenhouse Gases Reduced Each Year</br>
                  </div>
                  <div class="modeule-three-province-btn">
                  </div>
@@ -78,10 +78,10 @@
                      British Columbia
                  </div>
                  <div class="modeule-three-province-description">
-                     <span>120</span> Projects</br>
-                     <span>0.96 MW</span> Solar Energy Production</br>
-                     <span>44 K</span> Equivalent Trees Planted</br>
-                     <span>0.53 K</span> Tons Greenhouse Gases Reduced Each Year</br>
+                     <span>1,000</span> Projects</br>
+                     <span>1.6 MW</span> Solar Energy Production</br>
+                     <span>17.9 M</span> Equivalent Trees Planted</br>
+                     <span>1.7 M</span> Tons Greenhouse Gases Reduced Each Year</br>
                  </div>
                  <div class="modeule-three-province-btn">
                  </div>
@@ -91,10 +91,10 @@
                      Nova Scotia
                  </div>
                  <div class="modeule-three-province-description">
-                     <span>3,200</span> Projects</br>
-                     <span>30.2 MW</span> Solar Energy Production</br>
-                     <span>172 k</span> Equivalent Trees Planted</br>
-                     <span>16.7 k</span> Tons Greenhouse Gases Reduced Each Year</br>
+                     <span>4,100</span> Projects</br>
+                     <span>36.9 MW</span> Solar Energy Production</br>
+                     <span>4.6 M</span> Equivalent Trees Planted</br>
+                     <span>440 K</span> Tons Greenhouse Gases Reduced Each Year</br>
                  </div>
                  <div class="modeule-three-province-btn">
                  </div>
@@ -104,10 +104,10 @@
                      Prince Edward Island
                  </div>
                  <div class="modeule-three-province-description">
-                     <span>2,500</span> Projects</br>
-                     <span>30.2 MW</span> Solar Energy Production</br>
-                     <span>166 k</span> Equivalent Trees Planted</br>
-                     <span>16 k</span> Tons Greenhouse Gases Reduced Each Year</br>
+                     <span>3,000</span> Projects</br>
+                     <span>31.5 MW</span> Solar Energy Production</br>
+                     <span>8.9 M</span> Equivalent Trees Planted</br>
+                     <span>863 K</span> Tons Greenhouse Gases Reduced Each Year</br>
                  </div>
                  <div class="modeule-three-province-btn">
                  </div>
@@ -117,10 +117,10 @@
                      Ontario
                  </div>
                  <div class="modeule-three-province-description">
-                     <span>3,000</span> Projects</br>
-                     <span>31.1 MW</span> Solar Energy Production</br>
-                     <span>177 k</span> Equivalent Trees Planted</br>
-                     <span>17 k</span> Tons Greenhouse Gases Reduced Each Year</br>
+                     <span>3,100</span> Projects</br>
+                     <span>29.45 MW</span> Solar Energy Production</br>
+                     <span>2.4 M</span> Equivalent Trees Planted</br>
+                     <span>863 K</span> Tons Greenhouse Gases Reduced Each Year</br>
                  </div>
                  <div class="modeule-three-province-btn">
                  </div>
@@ -1038,9 +1038,9 @@
      }
 
      function startAnimation() {
-         animateValue(0, 12000, 1500, elementNumBox01);
-         animateValue(0, 111, 1500, elementNumBox02);
-         animateValue(0, 11, 1500, elementNumBox03);
+         animateValue(0, 12500, 1500, elementNumBox01);
+         animateValue(0, 115.83, 1500, elementNumBox02);
+         animateValue(0, 12, 1500, elementNumBox03);
      }
      // 获取目标 div
      var targetDiv = document.getElementById("modeule-two");
