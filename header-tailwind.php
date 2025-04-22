@@ -529,12 +529,6 @@
                             <img src="<?php echo get_template_directory_uri() . '/header/img/arrow.c58a946c.svg'; ?>" class="arrow-menu hidden w-[20px] h-[20px]" alt="v" />
                             <span class="absolute left-0 bottom-0 w-full bg-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
                         </a>
-                        <a id="news-parent-menu" class="flex justify-center items-center group transition duration-300 px-2 relative rounded-md text-sm h-full font-normal" href="https://polaronsolar.com/news">
-                            <p class="a-p-p-link text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-white hover:text-sky-600">
-                                News
-                            </p>
-                            <span class="absolute left-0 bottom-0 w-full bg-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
-                        </a>
                         <a id="pm-parent-menu" class="flex justify-center items-center group transition duration-300 px-2 relative rounded-md text-sm h-full font-normal" href="https://polaronsolar.com/pointsMall">
                             <p class="a-p-p-link text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-white hover:text-sky-600">
                                 Points Mall
@@ -663,6 +657,14 @@
                 </a>
             </div>
             <div class="relative h-full">
+                <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/news">
+                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
+                        News
+                    </p>
+                    <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
+                </a>
+            </div>
+            <div class="relative h-full">
                 <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/polaron-academy">
                     <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
                         Polaron Academy
@@ -753,13 +755,6 @@
                                 <img src="<?php echo get_template_directory_uri() . '/header/img/arrow-black.a519ac25.svg'; ?>" class="w-[20px] h-[20px] group-hover:opacity-0 text-white -rotate-90" alt="" />
                                 <img src="<?php echo get_template_directory_uri() . '/header/img/arrow-white-blue.33d94c0b.svg'; ?>" class="w-[20px] h-[20px] hidden group-hover:block opacity-0 group-hover:opacity-100 text-white -rotate-90" alt="" />
                             </div>
-                        </div>
-                        <div>
-                            <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/news">
-                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
-                                    News
-                                </p>
-                            </a>
                         </div>
                         <div>
                             <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/pointsMall">
@@ -897,6 +892,13 @@
                             <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/referral-program">
                                 <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
                                     Referral Program
+                                </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/news">
+                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
+                                    News
                                 </p>
                             </a>
                         </div>
