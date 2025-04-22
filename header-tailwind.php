@@ -522,6 +522,13 @@
                             <img src="<?php echo get_template_directory_uri() . '/header/img/arrow.c58a946c.svg'; ?>" class="arrow-menu hidden w-[20px] h-[20px]" alt="v" />
                             <span class="absolute left-0 bottom-0 w-full bg-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
                         </a>
+                        <a id="province-parent-menu" class="flex justify-center items-center group transition duration-300 px-2 relative rounded-md text-sm h-full font-normal">
+                            <p class="a-p-p-link text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-white hover:text-sky-600">
+                                Provinces
+                            </p>
+                            <img src="<?php echo get_template_directory_uri() . '/header/img/arrow.c58a946c.svg'; ?>" class="arrow-menu hidden w-[20px] h-[20px]" alt="v" />
+                            <span class="absolute left-0 bottom-0 w-full bg-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
+                        </a>
                         <a id="about-parent-menu" class="flex justify-center items-center group transition duration-300 px-2 relative rounded-md text-sm h-full font-normal" href="https://polaronsolar.com/about">
                             <p class="a-p-p-link text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-white hover:text-sky-600">
                                 About
@@ -625,6 +632,17 @@
                 <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/commercial/faq">
                     <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
                         FAQs
+                    </p>
+                    <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
+                </a>
+            </div>
+        </div>
+        <!-- province子菜单 -->
+        <div id="province-son-menu" class="hidden border-t-2 w-full justify-center items-center h-12 bg-white">
+            <div class="relative h-full">
+                <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/alberta">
+                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
+                        Alberta
                     </p>
                     <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
                 </a>
@@ -742,6 +760,15 @@
                             <div class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600">
                                 <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
                                     Commercial
+                                </p>
+                                <img src="<?php echo get_template_directory_uri() . '/header/img/arrow-black.a519ac25.svg'; ?>" class="w-[20px] h-[20px] group-hover:opacity-0 text-white -rotate-90" alt="" />
+                                <img src="<?php echo get_template_directory_uri() . '/header/img/arrow-white-blue.33d94c0b.svg'; ?>" class="w-[20px] h-[20px] hidden group-hover:block opacity-0 group-hover:opacity-100 text-white -rotate-90" alt="" />
+                            </div>
+                        </div>
+                        <div id="sm-province-p-box">
+                            <div class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600">
+                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
+                                    Provinces
                                 </p>
                                 <img src="<?php echo get_template_directory_uri() . '/header/img/arrow-black.a519ac25.svg'; ?>" class="w-[20px] h-[20px] group-hover:opacity-0 text-white -rotate-90" alt="" />
                                 <img src="<?php echo get_template_directory_uri() . '/header/img/arrow-white-blue.33d94c0b.svg'; ?>" class="w-[20px] h-[20px] hidden group-hover:block opacity-0 group-hover:opacity-100 text-white -rotate-90" alt="" />
@@ -865,6 +892,16 @@
                             </a>
                         </div>
                     </div>
+                    <!--手机版本prov的子菜单  -->
+                    <div id="sm-province-son-box" class="flex flex-col w-full translate-x-full opacity-0 transition-all duration-500 ease-in-out" style="">
+                        <div>
+                            <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/alberta">
+                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
+                                    Alberta
+                                </p>
+                            </a>
+                        </div>
+                    </div>
                     <!--手机版本about的子菜单  -->
                     <div id="sm-about-son-box" class="flex flex-col w-full translate-x-full opacity-0 transition-all duration-500 ease-in-out" style="">
                         <div>
@@ -956,6 +993,7 @@
                 // 父级菜单
                 const resParentMenuBtn = document.getElementById("res-parent-menu");
                 const comParentMenuBtn = document.getElementById("com-parent-menu");
+                const provinceParentMenuBtn = document.getElementById("province-parent-menu");
                 const aboutParentMenuBtn = document.getElementById("about-parent-menu");
                 //const newsParentMenuBtn = document.getElementById("news-parent-menu");
                 const pmParentMenuBtn = document.getElementById("pm-parent-menu");
@@ -965,6 +1003,7 @@
                 // 子集菜单
                 const resSonMenuBtn = document.getElementById("res-son-menu");
                 const comSonMenuBtn = document.getElementById("com-son-menu");
+                const provinceSonMenuBtn = document.getElementById("province-son-menu");
                 const aboutSonMenuBtn = document.getElementById("about-son-menu");
                 // 记录当前激活的子菜单
                 let currentActiveSonMenu = null;
@@ -989,6 +1028,10 @@
                     switchActiveMenu(comSonMenuBtn);
                 });
 
+                provinceParentMenuBtn.addEventListener("mouseenter", () => {
+                    switchActiveMenu(provinceSonMenuBtn);
+                });
+
                 aboutParentMenuBtn.addEventListener("mouseenter", () => {
                     switchActiveMenu(aboutSonMenuBtn);
                 });
@@ -1007,9 +1050,11 @@
 
                 const smResPBox = document.getElementById("sm-res-p-box");
                 const smComPBox = document.getElementById("sm-com-p-box");
+                const smProvincePBox = document.getElementById("sm-province-p-box");
                 const smAboutPBox = document.getElementById("sm-about-p-box");
                 const smResSonBox = document.getElementById("sm-res-son-box");
                 const smComSonBox = document.getElementById("sm-com-son-box");
+                const smProvinceSonBox = document.getElementById("sm-province-son-box");
                 const smAboutSonBox = document.getElementById("sm-about-son-box");
                 const smMainPMenu = document.getElementById("sm-main-p-menu");
                 const leftBtnMenu = document.getElementById("left-btn-menu");
@@ -1070,12 +1115,30 @@
                     // smComSonBox.classList.remove("hidden");
                     leftBtnMenu.classList.remove("hidden");
                 });
+                smProvincePBox.addEventListener("click", () => {
+                    smMainPMenu.classList.remove("translate-x-0", "opacity-100");
+                    smMainPMenu.classList.add("translate-x-[-100%]", "opacity-0");
+                    smMainPMenu.style.display = "none";
+                    smResSonBox.classList.add("hidden");
+                    smComSonBox.classList.add("hidden");
+                    smProvinceSonBox.classList.remove("hidden");
+                    setTimeout(() => {
+                        if (smProvinceSonBox.classList.contains("translate-x-full")) {
+                            // 显示：从左到右动画
+                            smProvinceSonBox.classList.remove("translate-x-full", "opacity-0");
+                            smProvinceSonBox.classList.add("translate-x-0", "opacity-100");
+                        }
+                    }, 500);
+                    // smComSonBox.classList.remove("hidden");
+                    leftBtnMenu.classList.remove("hidden");
+                });
                 smAboutPBox.addEventListener("click", () => {
                     smMainPMenu.classList.remove("translate-x-0", "opacity-100");
                     smMainPMenu.classList.add("translate-x-[-100%]", "opacity-0");
                     smMainPMenu.style.display = "none";
                     smResSonBox.classList.add("hidden");
                     smComSonBox.classList.add("hidden");
+                    smProvinceSonBox.classList.add("hidden");
                     smAboutSonBox.classList.remove("hidden");
                     setTimeout(() => {
                         if (smAboutSonBox.classList.contains("translate-x-full")) {
@@ -1103,11 +1166,12 @@
                     smComSonBox.classList.add("hidden");
                     smComSonBox.classList.remove("translate-x-0", "opacity-100");
                     smComSonBox.classList.add("translate-x-full", "opacity-0");
+                    smProvinceSonBox.classList.add("hidden");
+                    smProvinceSonBox.classList.remove("translate-x-0", "opacity-100");
+                    smProvinceSonBox.classList.add("translate-x-full", "opacity-0");
                     smAboutSonBox.classList.add("hidden");
                     smAboutSonBox.classList.remove("translate-x-0", "opacity-100");
                     smAboutSonBox.classList.add("translate-x-full", "opacity-0");
-
-
                     smAboutSonBox.classList.add("hidden");
                 });
 
