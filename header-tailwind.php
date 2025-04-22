@@ -647,6 +647,38 @@
                     <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
                 </a>
             </div>
+            <div class="relative h-full">
+                <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/british-columbia">
+                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
+                        British Columbia
+                    </p>
+                    <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
+                </a>
+            </div>
+            <div class="relative h-full">
+                <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/nova-scotia">
+                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
+                        Nova Scotia
+                    </p>
+                    <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
+                </a>
+            </div>
+            <div class="relative h-full">
+                <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/ontario">
+                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
+                        Ontario
+                    </p>
+                    <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
+                </a>
+            </div>
+            <div class="relative h-full">
+                <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/prince-edward-island">
+                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
+                        Prince Edward Island
+                    </p>
+                    <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
+                </a>
+            </div>
         </div>
         <!-- about子菜单 -->
         <div id="about-son-menu" class="hidden border-t-2 w-full justify-center items-center h-12 bg-white">
@@ -898,6 +930,34 @@
                             <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/alberta">
                                 <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
                                     Alberta
+                                </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/british-columbia">
+                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
+                                    British Columbia
+                                </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/nova-scotia">
+                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
+                                    Nova Scotia
+                                </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/ontario">
+                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
+                                    Ontario
+                                </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/prince-edward-island">
+                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
+                                    Prince Edward Island
                                 </p>
                             </a>
                         </div>
