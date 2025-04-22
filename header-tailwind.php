@@ -579,20 +579,6 @@
                     <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
                 </a>
             </div>
-            <div class="relative h-full group">
-                <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="/residential/alberta">
-                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">Provinces</p>
-                    <img src="<?php echo get_template_directory_uri() . '/header/img/arrow.c58a946c.svg'; ?>" class="w-[20px] h-[20px] ml-1" alt="v">
-                    <span class="absolute left-0 bottom-0 w-full bg-left-bottom block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
-                </a>
-                <div class="absolute top-full left-0 bg-white border border-gray-200 rounded-md shadow-lg py-2 min-w-[200px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
-                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/residential/alberta">Alberta</a>
-                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/residential/british-columbia">British Columbia</a>
-                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/residential/nova-scotia">Nova Scotia</a>
-                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/residential/prince-edward-island">PEI</a>
-                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/residential/ontario">Ontario</a>
-                </div>
-            </div>
             <div class="relative h-full">
                 <a class="flex justify-center items-center group transition duration-300 relative px-4 h-full rounded-md text-sm font-normal" href="https://polaronsolar.com/residential/faq/">
                     <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-gray-700 hover:text-sky-600">
@@ -859,22 +845,6 @@
                                     HVAC
                                 </p>
                             </a>
-                        </div>
-                        <div class="province-container">
-                            <div class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" data-expanded="false" onclick="toggleProvinceContent(this)">
-                                <p class="text-p-mobile font-body font-normal text-black md:text-p-tablet md:font-normal lg:text-p-desktop lg:font-normal xl:text-p-desktop-lg xl:font-normal text-gray-700 group-hover:text-sky-600">
-                                    Provinces
-                                </p>
-                                <img src="<?php echo get_template_directory_uri() . '/header/img/arrow-black.a519ac25.svg'; ?>" class="icon-arrow w-[20px] h-[20px] text-gray-700 transition-transform duration-300 group-hover:opacity-0" alt="Black Arrow">
-                                <img src="<?php echo get_template_directory_uri() . '/header/img/arrow-white-blue.33d94c0b.svg'; ?>" class="icon-arrow-hover w-[20px] h-[20px] text-gray-700 hidden group-hover:block transition-transform duration-300" alt="Blue Arrow">
-                            </div>
-                            <div class="province-content overflow-hidden bg-gray-50 max-h-0 opacity-0 transition-all duration-500">
-                                <a class="block pl-8 pr-4 py-3 text-gray-700 hover:text-sky-600" href="https://polaronsolar.com/alberta">Alberta</a>
-                                <a class="block pl-8 pr-4 py-3 text-gray-700 hover:text-sky-600" href="https://polaronsolar.com/british-columbia/">British Columbia</a>
-                                <a class="block pl-8 pr-4 py-3 text-gray-700 hover:text-sky-600" href="https://polaronsolar.com/nova-scotia/">Nova Scotia</a>
-                                <a class="block pl-8 pr-4 py-3 text-gray-700 hover:text-sky-600" href="https://polaronsolar.com/prince-edward-island/">PEI</a>
-                                <a class="block pl-8 pr-4 py-3 text-gray-700 hover:text-sky-600" href="https://polaronsolar.com/ontario/">Ontario</a>
-                            </div>
                         </div>
                         <div>
                             <a class="px-8 h-16 flex items-center justify-between group transition duration-300 px-2 rounded-md text-sm w-full py-2 font-normal cursor-pointer hover:text-sky-600" href="https://polaronsolar.com/residential/faq">
@@ -1378,32 +1348,4 @@
                     animatedDiv.classList.add("translate-x-0");
                 }, 500); //
             });
-        </script>
-        <script>
-            function toggleProvinceContent(element) {
-                const container = element.closest('.province-container');
-                const content = container.querySelector('.province-content');
-                const iconArrow = container.querySelector('.icon-arrow');
-                const iconHover = container.querySelector('.icon-arrow-hover');
-
-                // 检查当前是否是展开状态
-                const isExpanded = element.getAttribute('data-expanded') === 'true';
-                element.setAttribute('data-expanded', !isExpanded);
-
-                if (isExpanded) {
-                    // 折叠内容
-                    content.style.maxHeight = '0';
-                    content.style.opacity = '0';
-                    iconArrow.style.transform = 'rotate(0deg)';
-                    iconHover.style.transform = 'rotate(0deg)';
-                    container.classList.remove('expanded');
-                } else {
-                    // 展开内容
-                    content.style.maxHeight = content.scrollHeight + 'px';
-                    content.style.opacity = '1';
-                    iconArrow.style.transform = 'rotate(180deg)';
-                    iconHover.style.transform = 'rotate(180deg)';
-                    container.classList.add('expanded');
-                }
-            }
         </script>
