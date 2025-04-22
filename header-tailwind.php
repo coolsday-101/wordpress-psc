@@ -957,7 +957,7 @@
                 const resParentMenuBtn = document.getElementById("res-parent-menu");
                 const comParentMenuBtn = document.getElementById("com-parent-menu");
                 const aboutParentMenuBtn = document.getElementById("about-parent-menu");
-                const newsParentMenuBtn = document.getElementById("news-parent-menu");
+                //const newsParentMenuBtn = document.getElementById("news-parent-menu");
                 const pmParentMenuBtn = document.getElementById("pm-parent-menu");
                 //父菜单icon显示
                 const arrowMenus = document.querySelectorAll(".arrow-menu");
@@ -993,9 +993,9 @@
                     switchActiveMenu(aboutSonMenuBtn);
                 });
                 // 为没有子菜单的父级菜单设置鼠标进入事件监听
-                newsParentMenuBtn.addEventListener("mouseenter", () => {
+                /*newsParentMenuBtn.addEventListener("mouseenter", () => {
                     switchActiveMenu(null); // 清除激活状态
-                });
+                });*/
                 pmParentMenuBtn.addEventListener("mouseenter", () => {
                     switchActiveMenu(null); // 清除激活状态
                 });
