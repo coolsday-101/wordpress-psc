@@ -2,7 +2,8 @@
 function my_custom_head_content_rp()
 {
 ?>
-    <title>Polaron Solar News Desk — Stay Connected With Polaon</title>
+    <title>Polaron Referral Program – Earn $200 Per Referral</title>
+    <meta name="description" content="Join Polaron’s referral program and earn $200 for each friend you refer. Help others save on solar and get rewarded today!">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/referral/css/referral_t.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/referral/css/referral980_t.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/referral/css/referral767_t.css'; ?>">
@@ -86,11 +87,11 @@ get_header('tailwind'); // 加载头部
 <!-- 底部4个地图的 -->
 <div class="seletor-box" style="margin-top: 5vw;">
     <div>
-        <?php #include(TEMPLATEPATH . '/homestylebase.php') 
+        <?php #include(TEMPLATEPATH . '/homestylebase.php')
         ?>
     </div>
     <div>
-        <?php #include(TEMPLATEPATH . '/foot-map.php') 
+        <?php #include(TEMPLATEPATH . '/foot-map.php')
         ?>
         <?php include(get_template_directory()  . '/foot-map-tw.php') ?>
     </div>
