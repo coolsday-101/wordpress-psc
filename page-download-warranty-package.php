@@ -1,10 +1,11 @@
-<?php #get_header('custom-about'); 
+<?php #get_header('custom-about');
 ?>
 <?php
 function my_custom_head_content_pdf()
 {
 ?>
-    <title>Polaron Solar News Desk — Stay Connected With Polaon</title>
+    <title>Warranty Information - Polaron</title>
+    <meta name="description" content="Learn about Polaron’s solar warranty coverage, including solar panels, inverters, racks, and workmanship. Download warranty details now.">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/download/css/page-download-warranty-package.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/download/css/page-download-warranty-package980.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/download/css/page-download-warranty-package767.css'; ?>">
@@ -15,7 +16,7 @@ add_action('wp_head', 'my_custom_head_content_pdf');
 // custom-about
 get_header('tailwind'); // 加载头部
 ?>
-<script src="<?php #echo get_template_directory_uri() . '/js/devicePixelRatio.js'; 
+<script src="<?php #echo get_template_directory_uri() . '/js/devicePixelRatio.js';
                 ?>"></script>
 <script>
     // onload = function() {
@@ -32,9 +33,9 @@ get_header('tailwind'); // 加载头部
 <div class="pageBody">
     <!-- <div class="head">
         <div class="headimgpdf">
-            <a href="<?php #echo esc_url(home_url('/')); 
+            <a href="<?php #echo esc_url(home_url('/'));
                         ?>">
-                <img src="<?php #echo get_template_directory_uri() . '/images/indexImg/polaron_logo-01-300x115.png' 
+                <img src="<?php #echo get_template_directory_uri() . '/images/indexImg/polaron_logo-01-300x115.png'
                             ?>" alt="">
             </a>
         </div>
@@ -182,11 +183,11 @@ get_header('tailwind'); // 加载头部
     <!-- 底部4个地图的 -->
     <div style="margin-top: 50px;">
         <div>
-            <?php #include(TEMPLATEPATH . '/homestylebase.php') 
+            <?php #include(TEMPLATEPATH . '/homestylebase.php')
             ?>
         </div>
         <div>
-            <?php #include(TEMPLATEPATH . '/foot-map.php') 
+            <?php #include(TEMPLATEPATH . '/foot-map.php')
             ?>
             <?php include(get_template_directory()  . '/foot-map-tw.php') ?>
         </div>

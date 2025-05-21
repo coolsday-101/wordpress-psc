@@ -2,7 +2,8 @@
     function my_custom_head_content_about()
     {
     ?>
-       <title>Polaron Solar News Desk — Stay Connected With Polaon</title>
+       <title>About Polaron - Canada’s Leading Solar Provider</title>
+       <meta name="description" content="Polaron provides complete solar solutions in Alberta, Ontario, Nova Scotia, British Columbia & Prince Edward Island, delivering turnkey solutions.">
        <script src="<?php echo get_template_directory_uri() . '/js/lozad.min.js' ?>"></script>
        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/webpage/about/page-about.css'; ?>">
        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/webpage/about/about980.css'; ?>">
@@ -75,7 +76,7 @@
                        </p>
                    </div>
                    <div style="" class="video">
-                       <video id="video" controls poster="<?php #echo get_template_directory_uri() . '/images/about/DJI_0307_compressed.jpg'; 
+                       <video id="video" controls poster="<?php #echo get_template_directory_uri() . '/images/about/DJI_0307_compressed.jpg';
                                                             ?>" style="">
                            <source type="video/mp4" src="<?php echo get_template_directory_uri() . '/images/about/viedo/FINAL.mp4'; ?>">
                            </source>
@@ -261,7 +262,7 @@
            <div class="video2txt" style="display: none;">
                <div class="video2">
                    <div class="vdp">
-                       <video id="video2" controls poster="<?php #echo get_template_directory_uri() . '/images/about/video-cover.jpg'; 
+                       <video id="video2" controls poster="<?php #echo get_template_directory_uri() . '/images/about/video-cover.jpg';
                                                             ?>" style="width: 100%; height:auto!important; object-fit: fill; background-position: center;">
                            <source type="video/mp4" src="<?php echo get_template_directory_uri() . '/images/about/viedo/IMG_6050.mp4'; ?>">
                            </source>
@@ -692,11 +693,11 @@
        <!-- 底部4个地图的 -->
        <div class="seletor-box" style="margin-top: 5vw;">
            <div>
-               <?php #include(TEMPLATEPATH . '/homestylebase.php') 
+               <?php #include(TEMPLATEPATH . '/homestylebase.php')
                 ?>
            </div>
            <div>
-               <?php #include(TEMPLATEPATH . '/foot-map.php') 
+               <?php #include(TEMPLATEPATH . '/foot-map.php')
                 ?>
                <?php include(get_template_directory()  . '/foot-map-tw.php') ?>
            </div>
@@ -754,7 +755,7 @@
                                    min: 0.2,
                                    max: 3
                                }, //设置滚动捕捉动画的持续时间范围。
-                               delay: 0.2, //最后一次滚动事件开始捕捉前等待0.2秒。 
+                               delay: 0.2, //最后一次滚动事件开始捕捉前等待0.2秒。
                                ease: "power1.inOut" //设置滚动捕捉动画的缓动函数。这里使用的是 "power1.inOut" 缓动函数，可以调整动画的加速和减速效果。
                            }
                        }

@@ -2,8 +2,8 @@
     function my_custom_head_content()
     {
     ?>
-     <title>Polaron Makes It Easy to Go Solar – Canada’s largest Solar Installer</title>
-     <meta name="description" content="For 11 years, Polaron has endured as the largest solar company in Canada— Becoming #1 solar installer with over 12,000 households across the nation." />
+     <title>Canada's Largest Solar Company for Homes & Businesses - Polaron</title>
+     <meta name="description" content="For 11 years, Polaron is the largest solar company in Canada, offering top solar solutions for homes & businesses with 12,000+ installations nationwide." />
      <meta name="keywords" content="solar, solar panel, solar panel provider, solar power">
      <meta name="author" content="Polaron Solar">
      <meta name="google-site-verification" content="cEJ0k0nNPMObjyEO2PiW8FRLLsh2biJd5V6r4ZXrExE" />
@@ -1000,11 +1000,11 @@
  <!-- 底部4个地图的 -->
  <div class="seletor-box" style="margin-top: 5vw;">
      <div>
-         <?php #include(TEMPLATEPATH . '/homestylebase.php') 
+         <?php #include(TEMPLATEPATH . '/homestylebase.php')
             ?>
      </div>
      <div>
-         <?php #include(get_template_directory()  . '/foot-map.php') 
+         <?php #include(get_template_directory()  . '/foot-map.php')
             ?>
          <?php include(get_template_directory()  . '/foot-map-tw.php') ?>
      </div>
