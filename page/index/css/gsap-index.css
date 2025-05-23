@@ -1,0 +1,155 @@
+.parallax-all-box {
+  position: relative;
+  height: 100vh;
+  font-family: "Overpass-Bold";
+  overflow: hidden;
+}
+
+.parallax-text-all-box {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.parallax-text-all-box .lessen-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  line-height: 1;
+  word-spacing: 0.2vw;
+  color: #0056e0;
+  /* overflow: hidden; */
+  width: min-content;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.parallax-text-all-box .shadow {
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+}
+
+.parallax-text-all-box .shadow-inner {
+  position: relative;
+  display: block;
+  margin-top: -50%;
+  margin-left: -50%;
+  line-height: 1;
+  word-spacing: 0.2vw;
+  background-image: url("../img/1.png");
+  color: transparent;
+  background-clip: text;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.parallax-text-all-box .lessen-text-box span,
+.parallax-text-all-box .shadow span {
+  font-size: 110px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-family: "Overpass-Bold";
+}
+
+.parallax-text-all-box .lessen-text-box span.generation-box,
+.parallax-text-all-box .shadow span.generation-box {
+  font-size: 200px;
+  font-family: "Overpass-Bold";
+}
+
+.relative {
+  position: relative;
+}
+
+@media only screen and (max-width: 1600px) {
+
+  .parallax-text-all-box .lessen-text-box span,
+  .parallax-text-all-box .shadow span {
+    font-size: 76px;
+    font-family: "Overpass-Bold";
+  }
+
+  .parallax-text-all-box .lessen-text-box span.generation-box,
+  .parallax-text-all-box .shadow span.generation-box {
+    font-size: 130px;
+    font-family: "Overpass-Bold";
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+
+  .parallax-text-all-box .lessen-text-box,
+  .parallax-text-all-box .shadow {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+
+  .parallax-text-all-box .lessen-text-box span,
+  .parallax-text-all-box .shadow span {
+    font-size: 48px;
+    font-family: "Overpass-Bold";
+  }
+
+  .parallax-text-all-box .lessen-text-box span.generation-box,
+  .parallax-text-all-box .shadow span.generation-box {
+    font-size: 96px;
+    font-family: "Overpass-Bold";
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .parallax-text-all-box .lessen-text-box span,
+  .parallax-text-all-box .shadow span {
+    font-size: 32px;
+    font-family: "Overpass-Bold";
+  }
+
+  .parallax-text-all-box .lessen-text-box span.generation-box,
+  .parallax-text-all-box .shadow span.generation-box {
+    font-size: 72px;
+    font-family: "Overpass-Bold";
+  }
+}
+
+@media only screen and (max-width: 565px) {
+
+  .parallax-text-all-box .lessen-text-box span,
+  .parallax-text-all-box .shadow span {
+    font-size: 28px;
+    font-family: "Overpass-Bold";
+  }
+
+  .parallax-text-all-box .lessen-text-box span.generation-box,
+  .parallax-text-all-box .shadow span.generation-box {
+    font-size: 48px;
+    font-family: "Overpass-Bold";
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .parallax-text-all-box .lessen-text-box span,
+  .parallax-text-all-box .shadow span {
+    font-size: 8vw;
+    font-family: "Overpass-Bold";
+  }
+
+  .parallax-text-all-box .lessen-text-box span.generation-box,
+  .parallax-text-all-box .shadow span.generation-box {
+    font-size: 13vw;
+    font-family: "Overpass-Bold";
+  }
+}

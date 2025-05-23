@@ -17,6 +17,11 @@
      <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/index/css/index430.css'; ?>">
      <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/index/css/index320.css'; ?>">
      <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/page/index/css/gsap-index.css'; ?>">
+     <!-- Add the slick-theme.css if you want default styling -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+     <!-- Add the slick-theme.css if you want default styling -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
  <?php
     }
     add_action('wp_head', 'my_custom_head_content');
@@ -224,24 +229,22 @@
              Top Awarded Solar Company
          </div>
          <div class="award-all-box">
-             <div>
+            <div>
                  <div class="award-img-box">
-                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/Best-of-the-Best-2022_reversed.png' ?>" alt="">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/HS-BOA-2023-best_of_year.png' ?>" alt="">
                  </div>
                  <div class="award-text-box">
-                     <p class="award-text-year">2022</p>
-                     <p class="award-text">
-                         HomeStars</br>Best of the Best Winner
-                     </p>
+                     <p class="award-text-year">2023</p>
+                     <p class="award-text">Homestar</br>Best of Award Winner</p>
                  </div>
              </div>
              <div>
                  <div class="award-img-box">
-                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/TC_2022_2_Yrs_Tag.png' ?>" alt="">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/cca2024.png' ?>" alt="">
                  </div>
                  <div class="award-text-box">
-                     <p class="award-text-year">2022</p>
-                     <p class="award-text">Consumer Choice Award</br>2 Year Winner</p>
+                     <p class="award-text-year">2024</p>
+                     <p class="award-text">Consumer Choice Award</br>4-Year Winner</p>
                  </div>
              </div>
              <div>
@@ -255,22 +258,31 @@
              </div>
              <div>
                  <div class="award-img-box">
-                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/TorontoCentral_Year3.png' ?>" alt="">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/comm-install-award.avif' ?>" alt="">
                  </div>
                  <div class="award-text-box">
-                     <p class="award-text-year">2023</p>
-                     <p class="award-text">
-                         Consumer Choice Award</br>3 Year Winner
-                     </p>
+                     <p class="award-text-year">2024</p>
+                     <p class="award-text">Commercial Solar Installation</br>Company of the Year</br>in Canada</p>
                  </div>
              </div>
              <div>
                  <div class="award-img-box">
-                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/HS-BOA-2023-best_of_year.png' ?>" alt="">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/cca2025.png' ?>" alt="">
                  </div>
                  <div class="award-text-box">
-                     <p class="award-text-year">2023</p>
-                     <p class="award-text">HomeStars</br>Best of Award Winner</p>
+                     <p class="award-text-year">2025</p>
+                     <p class="award-text">Consumer Choice Award</br>5-Year Winner</p>
+                 </div>
+             </div>
+             <div>
+                 <div class="award-img-box">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/homestars-2024.png' ?>" alt="">
+                 </div>
+                 <div class="award-text-box">
+                     <p class="award-text-year">2024</p>
+                     <p class="award-text">
+                         Homestar</br>Best of Award Winner
+                     </p>
                  </div>
              </div>
          </div>
@@ -850,6 +862,14 @@
          </div>
      </div>
  </div>
+ <div class="slick-carousel" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+  <div><h3>1</h3></div>
+  <div><h3>2</h3></div>
+  <div><h3>3</h3></div>
+  <div><h3>4</h3></div>
+  <div><h3>5</h3></div>
+  <div><h3>6</h3></div>
+</div>
  <div class="index-modeule-twelve">
      <div class="twelve-all-box">
          <div class="twelve-title">Local Association</div>
@@ -2268,5 +2288,33 @@
              });
          });
 
+     });
+ </script>
+  <script>
+     document.addEventListener('DOMContentLoaded', function() {
+         if (typeof jQuery !== 'undefined' && typeof jQuery('.slick-carousel').slick === 'function') {
+        jQuery('.slick-carousel').slick({
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    }
      });
  </script>
