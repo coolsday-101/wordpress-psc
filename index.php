@@ -258,7 +258,7 @@
              </div>
              <div>
                  <div class="award-img-box">
-                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/comm-install-award.avif' ?>" alt="">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/comm-install-award.png' ?>" alt="">
                  </div>
                  <div class="award-text-box">
                      <p class="award-text-year">2024</p>
@@ -862,18 +862,10 @@
          </div>
      </div>
  </div>
- <div class="slick-carousel" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-  <div><h3>1</h3></div>
-  <div><h3>2</h3></div>
-  <div><h3>3</h3></div>
-  <div><h3>4</h3></div>
-  <div><h3>5</h3></div>
-  <div><h3>6</h3></div>
-</div>
  <div class="index-modeule-twelve">
      <div class="twelve-all-box">
          <div class="twelve-title">Local Association</div>
-         <div class="twelve-all-img-box">
+         <div class="twelve-all-img-box slick-carousel">
              <div>
                  <a href="https://renewablesassociation.ca/" target="_blank">
                      <img src="<?php echo get_template_directory_uri() . '/page/index/img/canadianAssociation-01.png' ?>" alt="">

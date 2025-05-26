@@ -350,7 +350,7 @@
 
   /* .hovered:hover i {
   background: #ffffff;
-  transform: translate3d(-50%, -50%, 0) scale(1); 
+  transform: translate3d(-50%, -50%, 0) scale(1);
 }
 .hovered:hover:before,
 .hovered:hover:after {
@@ -501,7 +501,7 @@
   padding-bottom: 200px;
   text-align: center;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   height: auto; */
   }
@@ -1566,7 +1566,7 @@
   }
 
   .twelve-all-img-box div {
-    width: 20%;
+    /*width: 20%;*/
   }
 
   /* 模块13 */

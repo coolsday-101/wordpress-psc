@@ -421,7 +421,7 @@
   padding-bottom: 200px;
   text-align: center;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   height: auto; */
   }
@@ -1364,7 +1364,7 @@
     align-items: center;
   }
   .twelve-all-img-box > div {
-    width: 30%; /* 两行中每个元素占据的宽度，这里设置为 48% 以留有些空隙 */
+    /*width: 30%; /* 两行中每个元素占据的宽度，这里设置为 48% 以留有些空隙 */
     margin-bottom: 16px; /* 元素之间的底部间距 */
   }
   /* 下面的两个元素显示在上面两个元素的下方 */
