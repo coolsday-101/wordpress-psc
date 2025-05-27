@@ -864,7 +864,10 @@
  </div>
  <div class="index-modeule-twelve">
      <div class="twelve-all-box">
-         <div class="twelve-title">Local Association</div>
+         <div class="ten-title-box">
+             Associations</br>
+             <span class="new-eight-second-title">Nationally recognized as Canada’s Top Energy Provider</span>
+         </div>
          <div class="twelve-all-img-box slick-carousel">
              <div>
                  <a href="https://renewablesassociation.ca/" target="_blank">
@@ -874,6 +877,31 @@
              <div>
                  <a href="https://www.princeedwardisland.ca/en/information/environment-energy-and-climate-action/network-of-excellence-energy-efficiency" target="_blank">
                      <img src="<?php echo get_template_directory_uri() . '/page/index/img/networkPEI.png' ?>" alt="">
+                 </a>
+             </div>
+             <div>
+                 <a href="https://www.bildgta.ca/" target="_blank">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/BiLD-logo.png' ?>" alt="">
+                 </a>
+             </div>
+             <div>
+                 <a href="https://bomanovascotia.com/" target="_blank">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/BOMA-logo.png' ?>" alt="">
+                 </a>
+             </div>
+             <div style="height: 70px; margin-top: 1rem;">
+                 <a href="https://cleanenergybc.org/" target="_blank">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/Clean-Energy-BC-logo.png' ?>" alt="">
+                 </a>
+             </div>
+             <div>
+                 <a href="https://www.ohba.ca/" target="_blank">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/ohba-logo.png' ?>" alt="">
+                 </a>
+             </div>
+             <div>
+                 <a href="https://rhpns.ca/" target="_blank">
+                     <img src="<?php echo get_template_directory_uri() . '/page/index/img/RHPNS-logo.png' ?>" alt="">
                  </a>
              </div>
              <div>
@@ -2287,9 +2315,12 @@
          if (typeof jQuery !== 'undefined' && typeof jQuery('.slick-carousel').slick === 'function') {
         jQuery('.slick-carousel').slick({
             slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 4000,
+            autoplaySpeed: 2000,
+            speed: 2000,
+            infinite: true,
+            cssEase: "linear",
             responsive: [
                 {
                     breakpoint: 1024,
