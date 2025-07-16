@@ -3,7 +3,7 @@
     {
     ?>
      <title>Canada's Largest Solar Company for Homes & Businesses - Polaron</title>
-     <meta name="description" content="For 11 years, Polaron is the largest solar company in Canada, offering top solar solutions for homes & businesses with 12,000+ installations nationwide." />
+     <meta name="description" content="For 12 years, Polaron is the largest solar company in Canada, offering top solar solutions for homes & businesses with 12,500+ installations nationwide." />
      <meta name="keywords" content="solar, solar panel, solar panel provider, solar power">
      <meta name="author" content="Polaron Solar">
      <meta name="google-site-verification" content="cEJ0k0nNPMObjyEO2PiW8FRLLsh2biJd5V6r4ZXrExE" />

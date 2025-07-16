@@ -1,4 +1,6 @@
 <head>
+    <title>Solar Production in Your Neighborhood | Polaron</title>
+    <meta name="description" content="Explore Polaron's solar projects across Canada and view energy production in your neighborhood. Discover how solar power is transforming homes and businesses near you.">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/leafletcss/leaflet.css'; ?>">
     <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" /> -->
     <script src="<?php echo get_template_directory_uri() . '/js/leaflet/leaflet.js'; ?>"></script>
@@ -292,7 +294,7 @@
     var yellowIcon = L.icon({
         iconUrl: "<?php echo get_template_directory_uri() . '/images/netmetering.png' ?>",
         iconSize: originalIconSize, // 图标大小
-        iconAnchor: [0, 0] // 图标的点，它将对应于标记的位置  
+        iconAnchor: [0, 0] // 图标的点，它将对应于标记的位置
     });
     var greenIcon = L.icon({
         iconUrl: "<?php echo get_template_directory_uri() . '/images/Microfit.png' ?>",

@@ -2,9 +2,9 @@
 function my_custom_head_content_ass()
 {
 ?>
-    <title>Polaron Makes It Easy To Go Solar In Canada | About Our Systems</title>
+    <title>High-Efficiency Solar Panels & Battery | Polaron</title>
     <script src="<?php echo get_template_directory_uri() . '/js/lozad.min.js' ?>"></script>
-    <meta name="description" content="No.1 residential solar installer. For 10+ years, Polaron has endured as the largest solar company in Canada—with over 12,000 installs across the nation.">
+    <meta name="description" content="Explore Polaron’s premium Solar Panels & Battery solutions designed for Canadian weather with expert installation, and support. Get a free estimate today.">
     <meta name="keywords" content="solar installer, solar energy, solar panels">
     <meta name="author" content="Polaron Solar">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -265,7 +265,7 @@ get_header('tailwind'); // 加载头部
                     <img class="lozad" data-src=" <?php echo get_template_directory_uri() . '/images/about-solar-system/ca-weather.png'; ?>" alt="">
                 </span>
                 <h4 style="font-size: 18px;
-                font-weight: 900;  text-align: center; width:50%;margin: 0 auto; 
+                font-weight: 900;  text-align: center; width:50%;margin: 0 auto;
                 line-height: 1.6em;font-family: 'Overpass',Helvetica,Arial,Lucida,sans-serif;margin-top: 25px;">
                     Built For Canadian Weather
                 </h4>
@@ -485,7 +485,7 @@ get_header('tailwind'); // 加载头部
     <!-- 底部 -->
     <div>
         <?php include(get_template_directory() . '/faqstylebase.php') ?>
-        <?php #include(TEMPLATEPATH . '/foot-map.php') 
+        <?php #include(TEMPLATEPATH . '/foot-map.php')
         ?>
         <?php include(get_template_directory()  . '/foot-map-tw.php') ?>
         <?php get_footer(); ?>

@@ -20,7 +20,10 @@
                         <div class="flex flex-col mr-[64px]"><a href="https://polaronsolar.com/about" target="_blank">
                                 <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-black">About Polaron</p>
                             </a><a href="https://polaronsolar.com/about-solar-system/" target="_blank">
-                                <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-neutral-900">About Solar System</p>
+                                <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-neutral-900">About Solar System</p>
+                            </a>
+                            <a href="http://polaronsolar.com/employee-portal" target="_blank">
+                                <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-neutral-900">Employee Portal</p>
                             </a></div>
                         <div class="flex flex-col mr-[64px]"><a href="https://polaronsolar.com/jobs/" target="_blank">
                                 <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-black">Jobs</p>
@@ -104,8 +107,10 @@
                     <div class="flex flex-col mr-[64px]"><a href="https://polaronsolar.com/about" target="_blank">
                             <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-black">About Polaron</p>
                         </a><a href="https://polaronsolar.com/about-solar-system/" target="_blank">
-                            <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-neutral-900">About Solar System</p>
-                        </a></div>
+                            <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-neutral-900">About Solar System</p>
+                        </a><a href="http://polaronsolar.com/employee-portal" target="_blank">
+                                <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-neutral-900">Employee Portal</p>
+                            </a></div>
                     <div class="flex flex-col mr-[64px]"><a href="https://polaronsolar.com/jobs/" target="_blank">
                             <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-black">Jobs</p>
                         </a><a href="https://polaronsolar.com/polaron-academy" target="_blank">
@@ -164,7 +169,9 @@
                 <div class="flex flex-col"><a href="https://polaronsolar.com/about" target="_blank">
                         <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-black">About Polaron</p>
                     </a><a href="https://polaronsolar.com/about-solar-system/" target="_blank">
-                        <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-neutral-900">About Solar System</p>
+                        <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-neutral-900">About Solar System</p>
+                    </a><a href="http://polaronsolar.com/employee-portal" target="_blank">
+                        <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-neutral-900">Employee Portal</p>
                     </a><a href="https://polaronsolar.com/jobs/" target="_blank">
                         <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-black mb-[24px]">Jobs</p>
                     </a><a href="https://polaronsolar.com/polaron-academy" target="_blank">
@@ -236,7 +243,9 @@
             <div class="flex flex-col"><a href="https://polaronsolar.com/about" target="_blank">
                     <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-black">About Polaron</p>
                 </a><a href="https://polaronsolar.com/about-solar-system/" target="_blank">
-                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-neutral-900">About Solar System</p>
+                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-neutral-900">About Solar System</p>
+                </a><a href="http://polaronsolar.com/employee-portal" target="_blank">
+                    <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal text-neutral-900">Employee Portal</p>
                 </a><a href="https://polaronsolar.com/jobs/" target="_blank">
                     <p class="text-p-small-mobile font-body font-normal text-black md:text-p-small-tablet md:font-normal lg:text-p-small-desktop lg:font-normal xl:text-p-small-desktop-lg xl:font-normal mb-[24px] text-black">Jobs</p>
                 </a><a href="https://polaronsolar.com/polaron-academy" target="_blank">

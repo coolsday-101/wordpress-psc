@@ -641,10 +641,7 @@
                </div>
                <div class="blocktwo" style="text-align: center;">
                    <span>
-                       <img class="lozad" data-src="<?php echo get_template_directory_uri() . '/images/about/Efficiency-ns.png'; ?>" alt="" style="width: auto; height: auto; max-width: 100%; max-height: 100%;">
-                   </span>
-                   <span class="span6" style="text-align: center;">
-                       <img class="lozad" data-src="<?php echo get_template_directory_uri() . '/images/about/network-of-excellence-logo.png'; ?>" alt="" style="width: auto; height: auto; max-width: 100%; max-height: 100%;">
+                       <img class="lozad" data-src="<?php echo get_template_directory_uri() . '/images/about/Efficiency-ns-new-logo.webp'; ?>" alt="" style="width: auto; height: auto; max-width: 100%; max-height: 100%;">
                    </span>
                    <span style="text-align: center;">
                        <img class="lozad" data-src="<?php echo get_template_directory_uri() . '/images/about/WhatsApp-Image-2020-10-01-at-17.39.53-1.jpeg'; ?>" alt="" style="width: auto; height: auto; max-width: 100%; max-height: 100%;">
